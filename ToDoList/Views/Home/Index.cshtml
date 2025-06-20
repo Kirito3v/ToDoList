@@ -1,0 +1,46 @@
+﻿@model List<ToDoList.Models.ToDoItemModel>
+@{
+    ViewData["Title"] = "Todo List";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Todo List</h1>
+        <a href="/Account/Logout" class="btn btn-danger">Logout</a>
+    </div>
+
+    <form asp-action="AddTask" method="post" class="mb-4">
+        <div class="input-group">
+            <input type="text" name="description" class="form-control" placeholder="Enter a new task..." required />
+            <button type="submit" class="btn btn-primary">Add Task</button>
+        </div>
+    </form>
+
+    @if (Model.Any())
+    {
+        <ul class="list-group">
+            @foreach (var task in Model)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center @(task.IsCompleted ? "list-group-item-success" : "")">
+                    <span>@task.Description</span>
+                    <div>
+                        <form asp-action="ToggleComplete" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@task.Id" />
+                            <button type="submit" class="btn btn-sm @(task.IsCompleted ? "btn-warning" : "btn-success") me-2">
+                                @(task.IsCompleted ? "Undo" : "Complete")
+                            </button>
+                        </form>
+                        <form asp-action="DeleteTask" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@task.Id" />
+                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        </form>
+                    </div>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <div class="alert alert-info">No tasks found. Add your first task above!</div>
+    }
+</div>
