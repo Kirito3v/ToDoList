@@ -1,21 +1,26 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
+using ToDoList.Data;
 using ToDoList.Models;
 
 namespace ToDoList.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ToDoDataContext _context;
+        private readonly ILogger<AccountController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ToDoDataContext context, ILogger<AccountController> logger)
         {
+            _context = context;
             _logger = logger;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var tasks = _context.Notes.ToList();
+            return View(tasks);
         }
 
         public IActionResult Privacy()

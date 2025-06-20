@@ -12,8 +12,7 @@ namespace ToDoList
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<ToDoDataContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("ToDoListDatabase")));
-
+                options.UseSqlServer(builder.Configuration.GetConnectionString("ToDoListContext")));
 
 
             var app = builder.Build();

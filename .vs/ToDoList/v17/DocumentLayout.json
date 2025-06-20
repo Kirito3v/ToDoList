@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Try\\ToDoList\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|d:\\try\\todolist\\todolist\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|d:\\try\\todolist\\todolist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|d:\\try\\todolist\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|d:\\try\\todolist\\todolist\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|d:\\try\\todolist\\todolist\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|d:\\try\\todolist\\todolist\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|d:\\try\\todolist\\todolist\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|d:\\try\\todolist\\todolist\\data\\tododatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,19 +75,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Try\\ToDoList\\ToDoList\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ToDoList\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T23:19:10.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ToDoList\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Try\\ToDoList\\ToDoList\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ToDoList\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-20T22:53:45.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "ToDoList\\Views\\Account\\Register.cshtml",
@@ -91,12 +108,11 @@
               "RelativeToolTip": "ToDoList\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T22:53:09.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T22:53:09.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LogIn.cshtml",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Views\\Account\\LogIn.cshtml",
               "RelativeDocumentMoniker": "ToDoList\\Views\\Account\\LogIn.cshtml",
@@ -104,12 +120,11 @@
               "RelativeToolTip": "ToDoList\\Views\\Account\\LogIn.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T22:51:28.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T22:51:28.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TodoController.cs",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Controllers\\TodoController.cs",
               "RelativeDocumentMoniker": "ToDoList\\Controllers\\TodoController.cs",
@@ -117,25 +132,24 @@
               "RelativeToolTip": "ToDoList\\Controllers\\TodoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T22:49:15.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T22:49:15.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ToDoList\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\Try\\ToDoList\\ToDoList\\Controllers\\AccountController.cs",
               "RelativeToolTip": "ToDoList\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAADwv3QAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T22:38:59.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RegisterModel.cs",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Models\\RegisterModel.cs",
               "RelativeDocumentMoniker": "ToDoList\\Models\\RegisterModel.cs",
@@ -143,12 +157,11 @@
               "RelativeToolTip": "ToDoList\\Models\\RegisterModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T22:36:37.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T22:36:37.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RegisterValidator.cs",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Validators\\RegisterValidator.cs",
               "RelativeDocumentMoniker": "ToDoList\\Validators\\RegisterValidator.cs",
@@ -156,12 +169,11 @@
               "RelativeToolTip": "ToDoList\\Validators\\RegisterValidator.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T22:25:46.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T22:25:46.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "LogInModel.cs",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Models\\LogInModel.cs",
               "RelativeDocumentMoniker": "ToDoList\\Models\\LogInModel.cs",
@@ -169,12 +181,11 @@
               "RelativeToolTip": "ToDoList\\Models\\LogInModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T22:36:05.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T22:36:05.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "LoginValidator.cs",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Validators\\LoginValidator.cs",
               "RelativeDocumentMoniker": "ToDoList\\Validators\\LoginValidator.cs",
@@ -182,12 +193,11 @@
               "RelativeToolTip": "ToDoList\\Validators\\LoginValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T22:27:13.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T22:27:13.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "UserModel.cs",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "ToDoList\\Models\\UserModel.cs",
@@ -195,12 +205,11 @@
               "RelativeToolTip": "ToDoList\\Models\\UserModel.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T22:32:00.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T22:32:00.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UserData.cs",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Models\\UserData.cs",
               "RelativeDocumentMoniker": "ToDoList\\Models\\UserData.cs",
@@ -208,12 +217,11 @@
               "RelativeToolTip": "ToDoList\\Models\\UserData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T22:00:21.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T22:00:21.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ToDoItemModel.cs",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Models\\ToDoItemModel.cs",
               "RelativeDocumentMoniker": "ToDoList\\Models\\ToDoItemModel.cs",
@@ -226,20 +234,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Program.cs",
               "RelativeDocumentMoniker": "ToDoList\\Program.cs",
               "ToolTip": "D:\\Try\\ToDoList\\ToDoList\\Program.cs",
               "RelativeToolTip": "ToDoList\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T21:52:39.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ToDoDataContext.cs",
               "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Data\\ToDoDataContext.cs",
               "RelativeDocumentMoniker": "ToDoList\\Data\\ToDoDataContext.cs",

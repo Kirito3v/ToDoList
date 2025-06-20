@@ -229,3 +229,4 @@ D:\Try\ToDoList\ToDoList\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Securit
 D:\Try\ToDoList\ToDoList\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Try\ToDoList\ToDoList\obj\Debug\net9.0\ToDoList.csproj.AssemblyReference.cache
 D:\Try\ToDoList\ToDoList\obj\Debug\net9.0\ToDoList.csproj.Up2Date
+D:\Try\ToDoList\ToDoList\obj\Debug\net9.0\ToDoList.sourcelink.json
