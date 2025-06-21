@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Try\\ToDoList\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|d:\\try\\todolist\\todolist\\validators\\registervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\validators\\registervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|d:\\try\\todolist\\todolist\\validators\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\validators\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|d:\\try\\todolist\\todolist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|d:\\try\\todolist\\todolist\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E57579B0-EFDB-450E-95D3-80F8D81020AA}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterValidator.cs",
+              "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Validators\\RegisterValidator.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Validators\\RegisterValidator.cs",
+              "ToolTip": "D:\\Try\\ToDoList\\ToDoList\\Validators\\RegisterValidator.cs",
+              "RelativeToolTip": "ToDoList\\Validators\\RegisterValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:08:07.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginValidator.cs",
+              "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Validators\\LoginValidator.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Validators\\LoginValidator.cs",
+              "ToolTip": "D:\\Try\\ToDoList\\ToDoList\\Validators\\LoginValidator.cs",
+              "RelativeToolTip": "ToDoList\\Validators\\LoginValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:08:04.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Controllers\\TodoController.cs",
+              "ToolTip": "D:\\Try\\ToDoList\\ToDoList\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "ToDoList\\Controllers\\TodoController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T00:15:58.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Try\\ToDoList\\ToDoList\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Try\\ToDoList\\ToDoList\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ToDoList\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T00:15:30.105Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
