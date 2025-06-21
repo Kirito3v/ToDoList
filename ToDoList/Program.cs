@@ -14,6 +14,8 @@ namespace ToDoList
             builder.Services.AddDbContext<ToDoDataContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("ToDoListContext")));
 
+            builder.Services.AddSession();
+            builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
 
@@ -29,11 +31,12 @@ namespace ToDoList
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseSession();
 
             app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}")
+                pattern: "{controller=Account}/{action=Login}/{id?}")
                 .WithStaticAssets();
 
             app.Run();

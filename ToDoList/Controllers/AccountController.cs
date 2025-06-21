@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Security.Cryptography;
 using System.Text;
 using ToDoList.Data;
@@ -57,7 +56,7 @@ namespace ToDoList.Controllers
                 await _context.SaveChangesAsync();
 
                 HttpContext.Session.SetString("UserId", authUser.UserId.ToString());
-                return RedirectToAction("Index", "Todo");
+                return RedirectToAction("Index", "Home");
             }
             catch (Exception ex)
             {
@@ -118,7 +117,7 @@ namespace ToDoList.Controllers
                 await _context.SaveChangesAsync();
 
                 HttpContext.Session.SetString("UserId", authUser.UserId.ToString());
-                return RedirectToAction("Index", "Todo");
+                return RedirectToAction("Index", "Home");
             }
             catch (Exception ex)
             {
@@ -126,14 +125,6 @@ namespace ToDoList.Controllers
                 ModelState.AddModelError(string.Empty, "An error occurred during registration");
                 return View(model);
             }
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Logout()
-        {
-            HttpContext.Session.Clear();
-            return RedirectToAction("Login");
         }
 
         #region Password Helpers

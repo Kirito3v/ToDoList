@@ -17,6 +17,14 @@ namespace ToDoList.Controllers
             _logger = logger;
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("LogIn", "Account");
+        }
+
         public IActionResult Index()
         {
             var tasks = _context.Notes.ToList();

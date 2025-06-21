@@ -44,7 +44,7 @@ namespace ToDoList.Controllers
 
             if (string.IsNullOrWhiteSpace(description))
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Home");
             }
 
             var task = new ToDoItemModel
@@ -56,7 +56,7 @@ namespace ToDoList.Controllers
             _context.Notes.Add(task);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpPost]
@@ -70,7 +70,7 @@ namespace ToDoList.Controllers
                 await _context.SaveChangesAsync();
             }
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpPost]
@@ -84,7 +84,7 @@ namespace ToDoList.Controllers
                 await _context.SaveChangesAsync();
             }
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
     }
 }
